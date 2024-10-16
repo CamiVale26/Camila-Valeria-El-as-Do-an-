@@ -1,0 +1,57 @@
+/* Estilo general */
+body {
+    background-color: #f7edf7; /* Fondo pastel claro */
+    font-family: 'Cursive', sans-serif; /* Fuente cursiva */
+    color: #4a4a4a; /* Color del texto */
+    text-align: center; /* Centrar el contenido */
+    margin: 0;
+    padding: 0;
+}
+
+/* Texto descriptivo */
+p {
+    color: #d48fc1; /* Rosa suave */
+    font-size: 1.5em; /* Texto mediano */
+    margin: 15px 0;
+}
+
+/* Input fields */
+input[type="number"] {
+    border: 2px solid #d48fc1; /* Borde rosa */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    width: 50%; /* Ajusta la anchura */
+    background-color: #fce5f1; /* Fondo rosa pastel */
+    color: #4a4a4a;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: #ac8dad; /* Borde lila al enfocarse */
+    box-shadow: 0px 0px 10px #e1d7e8; /* Sombra suave */
+}
+
+/* Botón */
+button {
+    background-color: #d48fc1; /* Fondo rosa */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ac8dad; /* Lila claro al pasar el cursor */
+}
+
+/* Resultado */
+h2 {
+    font-size: 2em;
+    color: #4a4a4a;
+    margin-top: 20px;
+}

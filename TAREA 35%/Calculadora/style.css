@@ -1,0 +1,65 @@
+/* Estilo general */
+body {
+    background-color: #f8f0f9; /* Fondo pastel */
+    font-family: 'Cursive', sans-serif; /* Tipografía cursiva */
+    color: #4a4a4a; /* Color del texto */
+    text-align: center; /* Centra el contenido */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ajusta la altura completa de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Calculadora */
+#calculadora {
+    background-color: #fce5f1; /* Fondo rosa claro */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 30px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 300px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #d48fc1; /* Borde rosa */
+    background-color: #fff;
+    font-size: 1.5em;
+    color: #4a4a4a;
+    text-align: right;
+    outline: none;
+}
+
+#display {
+    background-color: #f4e1f4; /* Fondo del display */
+    color: #4a4a4a;
+}
+
+/* Botones */
+button {
+    background-color: #d48fc1; /* Fondo rosa */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 60px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ac8dad; /* Color de fondo lila claro al pasar el cursor */
+}
+
+/* Estilo de los botones numéricos y de operaciones */
+#keys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

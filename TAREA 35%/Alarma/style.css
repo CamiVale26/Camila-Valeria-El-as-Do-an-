@@ -1,0 +1,62 @@
+/* Estilo general */
+body {
+    background-color: #f8f0f9; /* Fondo pastel claro */
+    font-family: 'Cursive', sans-serif; /* Tipografía cursiva */
+    color: #4a4a4a; /* Color del texto */
+    text-align: center; /* Centra el contenido */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Altura completa */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Coloca los elementos en columna */
+}
+
+/* Entrada de número */
+input[type="number"] {
+    border: 2px solid #d48fc1; /* Borde rosa */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    width: 50%; /* Ajusta el ancho */
+    background-color: #fce5f1; /* Fondo rosa claro */
+    color: #4a4a4a;
+    outline: none;
+    text-align: center; /* Centra el número */
+}
+
+input[type="number"]:focus {
+    border-color: #ac8dad; /* Borde lila al enfocarse */
+    box-shadow: 0px 0px 10px #e1d7e8; /* Sombra suave */
+}
+
+/* Botones */
+button {
+    background-color: #d48fc1; /* Fondo rosa pastel */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px; /* Espaciado entre botones */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ac8dad; /* Color lila al pasar el cursor */
+}
+
+/* Salida (estado de la alarma) */
+#salida {
+    font-size: 2.5em; /* Tamaño de texto grande */
+    color: #d48fc1; /* Rosa claro */
+    margin-top: 20px;
+}
+
+/* Estilo del audio */
+audio {
+    display: none; /* Oculta el reproductor de audio */
+}
